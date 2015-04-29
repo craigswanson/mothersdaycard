@@ -9,7 +9,7 @@
         <button onclick="sendTheMail(); return false;">Send the Mail</button>
         <pre id="response"></pre>
         <p>Trying a Form Below:</p>
-        <form name="theForm">message: <input type=text name="message">
-        <input type=Button value="Submit" onclick="sendTheMail(); return false;"></form>
+        <form name="theForm" ACTION="" METHOD="GET">message: <input type=text name="message">
+        <input type=Button value="Submit" onclick="sendTheMail(this.form); return false;"></form>
     </body>
 </html>
